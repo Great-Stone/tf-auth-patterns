@@ -1,4 +1,5 @@
-setenv.sh
+**/setenv.sh
+**/*.tfvars
 
 # Local .terraform directories
 **/.terraform
