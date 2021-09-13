@@ -6,3 +6,4 @@ variable "tf_token" {}
 
 variable vault_username {}
 variable vault_password {}
+variable vault_token {}
