@@ -24,7 +24,9 @@ provider "aws" {
   access_key              = var.access_key
   secret_key              = var.secret_key
 
-  default_tags = local.tags
+  default_tags {
+    tags = local.tags
+  }
 }
 
 resource "aws_security_group" "example" {
